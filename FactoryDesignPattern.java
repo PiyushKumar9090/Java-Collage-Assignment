@@ -72,7 +72,7 @@ class ThaliRestaurant {
         }else if (type.equalsIgnoreCase("Punjabi")) {
             return new PunjabiThali();
         }else {
-            throw new IllegalArgumentException("Unknown Thali type");
+            return null;
         }
     }
 }
